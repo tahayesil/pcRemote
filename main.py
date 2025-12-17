@@ -19,6 +19,7 @@ UDP_PORT = 50001
 SERVER_PORT = 8000      
 
 pyautogui.FAILSAFE = False
+pyautogui.PAUSE = 0
 
 # --- VERİ MODELLERİ ---
 class VolumeRequest(BaseModel):
